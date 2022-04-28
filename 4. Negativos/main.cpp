@@ -14,7 +14,7 @@ int main()
     int numeroDigitado = 0;
 
     for(int i = 1; i <= quantidadeLoops; i++ ){
-        printf("Insira o %dº número: ", i);
+        printf("Insira o %dÂº nÃºmero: ", i);
         scanf("%d", &numeroDigitado);
 
         if(numeroDigitado < 0){
@@ -23,9 +23,9 @@ int main()
         } else {
         	if(numeroDigitado != 0){
         		somaPositivos += numeroDigitado;
-            	quantidadePositivos++;
+            		quantidadePositivos++;
             	
-			}
+		}
         }
 
     }
@@ -33,6 +33,6 @@ int main()
     mediaPositivos = somaPositivos/quantidadePositivos;
 
         printf("%d valores negativos foram inseridos!\n", quantidadeNegativos );
-        printf("\na média dos valores positivos é: %.2f", mediaPositivos);
+        printf("\na mÃ©dia dos valores positivos Ã©: %.2f", mediaPositivos);
 }
 
